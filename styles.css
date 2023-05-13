@@ -55,10 +55,6 @@ li {
     margin-top: 10px;
 }
 
-.table {
-    
-}
-
 .table td {
     padding-bottom: 10px;
 }
@@ -125,23 +121,20 @@ header {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     font-size: 24px;
-
-    .nstr_inline {
+}
+.navy h2 .nstr_inline {
         display: none;
     }
     
-}
 .nstr_inline{
     font-size: 20px;
 }
 .navy:hover {
     width: 210px;
-    
-    .nstr_inline {
+}
+.navy:hover .nstr_inline {
         display: inline;
     }
-    
-}
 
 .navy a {
     color: white;
@@ -183,11 +176,12 @@ footer {
 
     .navy:hover {
         width: 70px;
-        .nstr_inline {
+    }
+        .navy:hover .nstr_inline {
             display: none;
         }
         }
-    }
+    
 
     
 
