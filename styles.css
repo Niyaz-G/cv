@@ -1,0 +1,207 @@
+/* Общие настройки вида */
+/* html {
+    min-width: 670px;
+} */
+main, header {
+    width: 60%;
+    min-width: 470px;
+    margin-top: 20px;
+    margin-left: 20%;
+    border-radius: 40px;
+    box-sizing: border-box;
+    padding: 16px;
+    /* border: 1px solid rgb(163, 139, 139) */
+}
+
+main, header, aside {
+    background: linear-gradient(180deg, rgba(252, 252, 252, 0.05) 0%,rgba(252, 252, 252, 0.03) 100%)
+    /* background: rgba(252, 252, 252, 0.1); */
+}
+
+body {
+    color: #ffffff;
+    background: no-repeat fixed linear-gradient(180deg, #323855 0%,#030413 100%);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+
+}
+h1, h2 {
+    
+    text-shadow: 4px -3px 4px rgba(0,0,0,0.6);
+    font-weight: 400;
+    letter-spacing: 1,5px;
+}
+
+h1 {
+    white-space: nowrap;
+}
+h2 {
+    margin-block-start: 0;
+    margin-top: 20px;
+}
+p, ul {
+    margin-block-start: 0;
+    margin-block-end: 15px;
+    color: #fafafa;
+}
+
+ul {
+    padding: 0;
+    list-style-position: inside;
+}
+
+li {
+    margin-top: 10px;
+}
+
+.table {
+    
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(1){
+    width: 25%;
+}
+
+.table td:nth-child(2){
+    width: 30%;
+}
+.table td:nth-child(3),
+.table td:nth-child(4){
+    text-align: center;
+    width: 25%;
+}
+
+
+/* Оформление мейна */
+main section {
+    padding: 0 20px 5px 20px;
+}
+
+main a {
+    color: white;
+    text-decoration: underline;
+}
+
+main a:hover {
+    font-weight: normal;
+}
+
+/* Оформление шапки */
+header {
+    display: flex;
+    overflow: hidden;
+}
+
+/* Оформление фото */
+#avatar {
+    width: 300px;
+    height: 300px;
+    border-radius: 40px;
+    margin: 20px;
+}
+
+/* Оформление панели навигации */
+.navy {
+    background: inherit;
+    position: fixed;
+    width: 60px;
+    top: 20px;
+    left: 0;
+    height: auto;
+    /* border: 1px solid rgb(201, 185, 185); */
+    transition: 0.6s ease;
+    overflow: hidden;
+    border-radius: 0 20px 20px 0;
+}
+
+.navy h2 {
+    white-space: nowrap;
+    margin: 10px 10px 20px 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+
+    .nstr_inline {
+        display: none;
+    }
+    
+}
+.nstr_inline{
+    font-size: 20px;
+}
+.navy:hover {
+    width: 210px;
+    
+    .nstr_inline {
+        display: inline;
+    }
+    
+}
+
+.navy a {
+    color: white;
+    text-decoration: none;
+}
+
+.navy a:hover {
+    font-weight: normal;
+}
+
+
+
+.icons {
+    height: 1em;
+    margin-right: 10px;
+    
+}
+
+/* Футер */
+footer {
+    width: 70%;
+    min-width: 430px;
+    margin-top: 10px;
+    margin-left: 20%;
+    box-sizing: border-box;
+    padding: 16px;
+    text-align: right;
+}
+.flaticon{
+    width: 5%;
+}
+@media (max-width: 1100px){
+    /* .navy {
+        display: none;
+    } */
+    .navy {
+        width: 70px;
+    }
+
+    .navy:hover {
+        width: 70px;
+        .nstr_inline {
+            display: none;
+        }
+        }
+    }
+
+    
+
+@media (max-width: 1350px){
+    header {
+        display: block;
+    }
+    header h1, p, ul {
+        padding-left: 20px;
+    }
+
+    #photo img{
+        display: block;
+        margin: 0 auto; 
+        text-align: center;
+    }
+}
