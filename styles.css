@@ -174,10 +174,15 @@ footer {
         width: 70px;
     }
 
+    .navy .nstr_inline {
+        display: none;
+    }
+
     .navy:hover {
         width: 70px;
     }
-        .navy:hover .nstr_inline {
+    
+    .navy:hover .nstr_inline {
             display: none;
         }
         }
