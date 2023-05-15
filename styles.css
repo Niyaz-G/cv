@@ -5,6 +5,7 @@
 main, header {
     width: 60%;
     min-width: 470px;
+    max-width: 1200px;
     margin-top: 20px;
     margin-left: 20%;
     border-radius: 30px;
@@ -47,6 +48,11 @@ p, ul {
 }
 
 ul {
+    padding: 0;
+    list-style-position: inside;
+}
+
+section ul {
     padding: 0;
     list-style-position: inside;
 }
@@ -186,9 +192,6 @@ footer {
             display: none;
         }
         }
-    
-
-    
 
 @media (max-width: 1350px){
     header {
@@ -202,5 +205,11 @@ footer {
         display: block;
         margin: 0 auto; 
         text-align: center;
+    }
+}
+
+@media (max-width: 350px){
+    .navy {
+        display: none;
     }
 }
