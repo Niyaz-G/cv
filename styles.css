@@ -7,7 +7,7 @@ main, header {
     min-width: 470px;
     margin-top: 20px;
     margin-left: 20%;
-    border-radius: 40px;
+    border-radius: 30px;
     box-sizing: border-box;
     padding: 16px;
     /* border: 1px solid rgb(163, 139, 139) */
@@ -112,7 +112,7 @@ header {
     /* border: 1px solid rgb(201, 185, 185); */
     transition: 0.6s ease;
     overflow: hidden;
-    border-radius: 0 20px 20px 0;
+    border-radius: 0 30px 30px 0;
 }
 
 .navy h2 {
